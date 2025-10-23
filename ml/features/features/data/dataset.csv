@@ -1,0 +1,4 @@
+video,npz_path,label
+plasma_A, data/features/A.npz, stable
+plasma_B, data/features/B.npz, unstable
+plasma_C, data/features/C.npz, extinguish
