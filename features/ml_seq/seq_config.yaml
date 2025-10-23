@@ -1,0 +1,7 @@
+seq_len: 180          # frames per sequence (3 s @ 60 fps)
+seq_stride: 30        # slide window every 0.5 s
+features: ["I_mean","I_std","RB","GB","flow"]
+labels:
+  stable: 0
+  unstable: 1
+  extinguish: 2
