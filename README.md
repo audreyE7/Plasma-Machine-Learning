@@ -1,0 +1,1 @@
+Built a passive video-based plasma diagnostic. Extracted signal features (intensity, color ratios, optical-flow, flicker bandpower). Trained a RandomForest classifier to detect stable vs unstable plasma. Majority-vote predictions across 3-s segments with X% test accuracy. Interpretable features show flicker bandpower and color ratio as top indicators.
